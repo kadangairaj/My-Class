@@ -1,0 +1,11 @@
+div {
+    color: green !important
+}
+/* four fillares properties */
+.inline{
+    display: inline-block;
+    text-align: center;
+    right: 100px;
+    margin-right: 100px;
+    
+}

@@ -1,0 +1,43 @@
+*{
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 17px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.nav-btn{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: larger;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+section{
+    display: grid;
+    place-items: center;
+    margin-top: 7vh;
+    height: 94vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left-content.img{
+    
+    width: 10px ;
+    height: 60vh;
+}

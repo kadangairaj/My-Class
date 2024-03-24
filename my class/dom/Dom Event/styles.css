@@ -1,0 +1,35 @@
+.inbuild-event{
+    display: flex;
+    border: 1px dotted black;
+    padding: 17px;
+    justify-content: center;
+    gap: 5rem;
+}
+.btn{
+    padding: 10px;
+    width: 75px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+}
+.alert{
+    background-color: crimson;
+}
+.confirm{
+    background-color: green;
+}
+.prompt{
+    background-color: yellow;
+}
+.Time{
+    background-color: blueviolet;
+}
+.Inter{
+    background-color: coral;
+}
+.res-div{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+}
